@@ -91,6 +91,7 @@ touch $cmake_list_file_path
 echo -e "cmake_minimum_required(VERSION 2.8)" >> $cmake_list_file_path
 echo -e "project($project_name)" >> $cmake_list_file_path
 echo -e "set(CMAKE_CXX_STANDARD 11)" >> $cmake_list_file_path
+echo -e "set(CMAKE_EXPORT_COMPILE_COMMANDS ON)" >> $cmake_list_file_path
 
 #A new line
 echo -e "\n" >> $cmake_list_file_path
